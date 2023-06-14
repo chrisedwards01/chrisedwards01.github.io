@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Gym Login/Signup</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="login.css">
+</head>
+<body>
+  <div class="container">
+    <h2>Login</h2>
+    <form action="home.html" id="form" onsubmit="return formvalidation()">
+      <div class="form-group">
+        <label for="login" style="color: white;">Username:</label>
+        <input type="text" id="login" placeholder="Enter your username" required>
+      </div>
+      <div class="form-group">
+        <label for="Password" style="color: white;">Password:</label>
+        <input type="password" id="Password" placeholder="Enter your password" required>
+      </div>
+      <div class="form-group showp">
+        <input type="checkbox" id="chechpw" onclick="showpoassword()">
+        <label for="chechpw">Show Password</label>
+      </div>
+      <div class="form-group">
+        <button type="submit">Login</button>
+      </div>
+      <div class="form-group signup-link">
+        <p style="color: white;">Don't have an account? <a href="#signup">Sign up here</a></p>
+      </div>
+    </form>
+  </div>
+
+  <div class="container" id="signup">
+    <h2>Sign up</h2>
+    <form>
+      <div class="form-group">
+        <label for="signupName" style="color: white;">Name:</label>
+        <input type="text" id="signupName" placeholder="Enter your name" required>
+      </div>
+      <div class="form-group">
+        <label for="signupEmail" style="color: white;">Email:</label>
+        <input type="email" id="signupEmail" placeholder="Enter your email" required>
+      </div>
+      <div class="form-group">
+        <label for="mobilenumber" style="color: white;">Mobile Number:</label>
+        <input type="tel" id="phnumber" placeholder="9999999999" required>
+      </div>
+      <div class="form-group">
+        <label for="signupPassword" style="color: white;">Password:</label>
+        <input type="password" id="Password" placeholder="Enter your password" required>
+      </div>
+      <div class="form-group showp">
+        <input type="checkbox" id="chechpw">
+        <label for="chechpw">Show Password</label>
+      </div>
+      <div class="form-group">
+        <button type="submit" >Sign up</button>
+      </div>
+      <div class="form-group signup-link">
+        <p style="color: white;">Already have an account? <a href="#">Login here</a></p>
+      </div>
+    </form>
+  </div>
+  <script src="login.js"></script>
+</body>
+</html>
+

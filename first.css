@@ -1,0 +1,190 @@
+body{
+    height: 2500px;
+    background-color: rgb(35, 34, 34);
+}
+.mynavbar{
+    background-color: black;
+    height: 60px;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    z-index: 1;
+}
+.myicon{
+    color:white ;
+    float: left;
+    margin-top: 13px;
+    font-size: xx-large;
+}
+#heading{
+    font-size: xx-large;
+    font-family: 'Times New Roman', Times, serif;
+    font-style:bold;
+    display: inline-block;
+    margin: auto;
+    margin-top: 5px;
+}
+.lgbtn{
+    float:right;
+    margin: auto;
+    background-color: white;
+    text-decoration: none;
+    color: black;
+    border: solid 1px;
+    margin-top: 15px;
+    border-radius: 5px;    
+}
+.lgbtn :hover{
+    background-color: black;
+    color: white;
+}
+.container-fluid{
+    text-align: center;
+}
+.mar{
+    position: relative;
+    margin-top: 100px;
+    color: white;
+    font-size: xx-large;
+    font-family: 'Times New Roman', Times, serif;
+}
+/* carousel */
+.carousel{
+    position: relative;
+    margin-top: 30px;
+    z-index: -1;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* image row */
+.image-row {
+    display: flex ;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color:  rgb(35, 34, 34);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    
+    margin-top: 80px;
+  }
+
+  .image-box {
+    margin-top: 30px;
+    text-align: center;
+  }
+
+  .image-box img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 10%;
+  }
+
+  .image-box p {
+    margin-top: 10px;
+    color: white;
+  }
+/* CARDS */
+.mycard {
+    /* display: flex; */
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 100px;
+    margin-left: 340px;
+}
+.mycard a{
+    text-decoration: none;
+    text-align: center;
+    margin-left: 35px;
+}
+.mycard h2{
+    color: white;
+    margin-bottom: 10px;
+}
+/* SUB CHART */
+.subscription{
+    margin-top: 80px;
+}
+.subscription-mybtn{
+    border: solid black 1px;
+    border-radius: 10%;
+}
+.subscription-mybtn:hover{
+    background-color: black;
+    color: #fff;
+}
+.yoga{
+  margin-top: 150px;
+  background-color: black
+}
+
+/* FOOTER CSS */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
+
+
+.footer {
+  margin-top: 200px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  width: 100%;
+  background: black;
+  min-height: 100px;
+  padding: 20px 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.social-icon,
+.menu {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0;
+  flex-wrap: wrap;
+}
+
+.social-icon__item,
+.menu__item {
+  list-style: none;
+}
+
+.social-icon__link {
+  font-size: 2rem;
+  color: #fff;
+  margin: 0 10px;
+  display: inline-block;
+  transition: 0.5s;
+}
+.social-icon__link:hover {
+  transform: translateY(-10px);
+  color: rgb(23, 174, 244);
+}
+
+.menu__link {
+  font-size: 1.2rem;
+  color: #fff;
+  margin: 0 10px;
+  display: inline-block;
+  transition: 0.5s;
+  text-decoration: none;
+  opacity: 0.75;
+  font-weight: 300;
+}
+
+.menu__link:hover {
+  opacity: 1;
+  color: rgb(23, 174, 244);
+}
+
+.footer p {
+  color: #fff;
+  margin: 15px 0 10px 0;
+  font-size: 1rem;
+  font-weight: 300;
+}
+/* FOOTER CSS END */
